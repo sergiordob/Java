@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-***Introduction to Java Programming and Data Structures, Comprehensive Version 12th Edition - 2019.***
+  <strong>Frase centralizada em negrito</strong>
 </p>
