@@ -7,7 +7,7 @@
 </p>
 
 
-Site: https://www.iesp.edu.br/cursos/pos-graduacao/full-stack-web-development
+Site: https://www.iesp.edu.br/institucional/a-faculdade
 
 Breve resumo sobre a instituição: 
 
