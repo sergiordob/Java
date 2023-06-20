@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-***Espaço dedicado a Especialização Lato Sensu em Java, ministrada pela Universidade Tecnológica Federal do Paraná***
+***Introduction to Java Programming and Data Structures, Comprehensive Version 12th Edition - 2019.***
 </p>
