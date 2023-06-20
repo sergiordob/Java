@@ -1,4 +1,4 @@
-Solução dos exercícios do livro Introduction to Java Programming and Data Structures, Comprehensive Version 11th Edition - 2017. 
+Solução dos exercícios do livro Introduction to Java Programming and Data Structures, Comprehensive Version 11th Edition - 2019. 
 
 Daniel Liang ensina conceitos de resolução de problemas e de programação orientada para objectos utilizando uma abordagem baseada nos fundamentos. Os programadores principiantes aprendem técnicas críticas de resolução de problemas e, em seguida, passam a compreender os conceitos-chave de orientação a objetos, programação GUI, GUI avançada e programação Web utilizando Java. Liang aborda a programação GUI Java utilizando o JavaFX, não só porque o JavaFX é muito mais simples para os novos programadores Java aprenderem e utilizarem, mas também porque substituiu o Swing como a nova ferramenta GUI para o desenvolvimento de aplicações Internet ricas em plataformas cruzadas em computadores de secretária, em dispositivos portáteis e na Web. Além disso, para os formadores, o JavaFX proporciona uma melhor ferramenta de ensino para demonstrar a programação orientada para objetos.
 
