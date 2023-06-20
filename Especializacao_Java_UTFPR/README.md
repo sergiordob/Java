@@ -8,7 +8,7 @@
 
 
 
-
+\newline
 Disciplinas:
 
 - Linguagem de Programação Java (básico e avançado com Padrões de Projeto SOLID)
