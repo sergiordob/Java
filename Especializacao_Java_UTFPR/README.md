@@ -3,12 +3,13 @@
 </p>
 
 <p align="center">
+  
   <strong>Repositório dedicado à Especialização Lato Sensu em Java, ministrada pela UTFPR - Universidade Federal Tecnológica do Paraná -.</strong>
+  
 </p>
 
 
 
-\newline
 Disciplinas:
 
 - Linguagem de Programação Java (básico e avançado com Padrões de Projeto SOLID)
