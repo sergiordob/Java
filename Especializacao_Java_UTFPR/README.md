@@ -30,5 +30,5 @@ Disciplinas:
 - Enterprise Java Beans (Jakarta)
 
 - Integração Contínua (DevOps)
-- 
+  
 - Teste de Software (JUnit e Automatização)
