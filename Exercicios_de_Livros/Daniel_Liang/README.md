@@ -1,4 +1,6 @@
-![Capa](./Capa.png)
+<p align="center">
+  <img src="./Capa.png" alt="Texto Alternativo">
+</p>
 
 Solução dos exercícios do livro Introduction to Java Programming and Data Structures, Comprehensive Version 11th Edition - 2019. 
 
