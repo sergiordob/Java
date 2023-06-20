@@ -3,7 +3,7 @@
 </p>
 
 
-Solução dos exercícios - realizados no Intellij -  do livro ***Java: How to Program.***, adotado em grande parte das Universidades Americanas no ensino sobre Java. A obra cobre as versões 8 e 9 do Java.
+Solução dos exercícios - realizados no Intellij -  do livro ***Java: How To Program, Early Objects, 11th edition***, adotado em grande parte das Universidades Americanas no ensino sobre Java. A obra cobre as versões 8 e 9 do Java.
 
 Site da editora: https://www.pearson.com/en-us/subject-catalog/p/java-how-to-program-early-objects/P200000003428/9780137505166
 
