@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <strong>Frase centralizada em negrito</strong>
+  <strong>Espaço dedicao à Especialização Lato Sensu em Java, ministrada pela UTFPR - Universidade Federal Tecnológica do Paraná -.</strong>
 </p>
