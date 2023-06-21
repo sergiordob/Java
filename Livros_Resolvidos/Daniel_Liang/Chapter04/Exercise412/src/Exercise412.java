@@ -29,15 +29,10 @@ public class Exercise412
                 case 'F': numberDecimal = 15; break;
             }
         }
-
-
         /*for (int i = 0; i <= 3; i++)
         {
             stringCharToUpperCase[i] = string.charAt(i);
         }*/
-
-
-
 
     }
 }
