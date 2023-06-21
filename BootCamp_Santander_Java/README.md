@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <strong>Repositório dedicado à Especialização Lato Sensu em Desenvolvimento FullStack, ministrada pela UNIESP - Instituto de Educação Superior da Paraíba -.</strong>
+  <strong>Repositório dedicado ao BootCamp em Java ofertada pelo programa Santander Becas.</strong>
 </p>
