@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-  <strong>Repositório dedicado ao BootCamp Backend Java ofertado pelo programa Santander Becas.</strong>
+  <strong>Repositório dedicado à formação em Java da DIO - Digital Innovation One -.</strong>
 </p>
