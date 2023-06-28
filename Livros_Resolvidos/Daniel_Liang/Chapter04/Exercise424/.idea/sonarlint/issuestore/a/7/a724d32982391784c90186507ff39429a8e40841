@@ -1,0 +1,16 @@
+
+]
+java:S1854"@Remove this useless assignment to local variable "thirdCountry".(Óêïı8×Èòğ1
+c
+java:S1854"ARemove this useless assignment to local variable "secondCountry".(²Šˆñùÿÿÿÿ8×Èòğ1
+]
+java:S1854"@Remove this useless assignment to local variable "firstCountry".(£ô ·8İÊóğ1
+S
+java:S1481"1Remove this unused "firstCountry" local variable.(İ–£‡úÿÿÿÿ8«îñğ1
+O
+java:S1481"2Remove this unused "secondCountry" local variable.(„¹ü¶8«îñğ1
+S
+java:S1481"1Remove this unused "thirdCountry" local variable.(ºËƒ…şÿÿÿÿ8«îñğ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ØêÔöøÿÿÿÿ8¬îñğ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(å—Ø÷8ÚÈòğ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(´±§§üÿÿÿÿ8ÚÈòğ1

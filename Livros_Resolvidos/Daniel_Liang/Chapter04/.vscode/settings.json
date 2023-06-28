@@ -1,0 +1,7 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
+}

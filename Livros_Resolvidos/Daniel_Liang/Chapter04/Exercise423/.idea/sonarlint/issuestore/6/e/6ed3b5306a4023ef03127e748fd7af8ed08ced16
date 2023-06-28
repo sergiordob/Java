@@ -1,0 +1,33 @@
+
+s
+java:S1854"QRemove this useless assignment to local variable "mailinglistMemberDiscountRate".(Ğş§ôüÿÿÿÿ8—ê«ğ1
+e
+java:S1854"HRemove this useless assignment to local variable "standardDiscountRate".(û¹›ê8—ê«ğ1
+s
+java:S1854"QRemove this useless assignment to local variable "mailinglistMemberDiscountRate".(÷Ü¤·üÿÿÿÿ8—ê«ğ1
+j
+java:S1854"HRemove this useless assignment to local variable "standardDiscountRate".(Îî¾ûÿÿÿÿ8—ê«ğ1
+b
+java:S1854"FRemove this useless assignment to local variable "averageCoffeePrice".(®½Ìo8…Íğ1
+m
+java:S1854"PRemove this useless assignment to local variable "numberOfCoffeesBoughtInTotal".(©íª½8…Íğ1
+[
+java:S1481"9Remove this unused "standardDiscountRate" local variable.(Îî¾ûÿÿÿÿ8›ê«ğ1
+d
+java:S1481"BRemove this unused "mailinglistMemberDiscountRate" local variable.(÷Ü¤·üÿÿÿÿ8›ê«ğ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(·‰Üºúÿÿÿÿ8œê«ğ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(øæ•á8œê«ğ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ´E8ê«ğ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ó³Òøÿÿÿÿ8ê«ğ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿßÚòûÿÿÿÿ8ê«ğ1
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ì® Äúÿÿÿÿ8Ÿê«ğ1
+T	java:S106#"9Replace this use of System.out or System.err by a logger.(š…½(8Ÿê«ğ1
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(Şïó£8Ÿê«ğ1
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(›î÷Ñ8 ê«ğ1
+G
+java:S3457'"%String contains no format specifiers.(°è—‡ÿÿÿÿÿ8 ê«ğ1
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(°è—‡ÿÿÿÿÿ8 ê«ğ1
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ÂÄİ¾üÿÿÿÿ8 ê«ğ1
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(§üñ8¡ê«ğ1
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(•€’œ8¡ê«ğ1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ÓøÙ±ıÿÿÿÿ8¡ê«ğ1
