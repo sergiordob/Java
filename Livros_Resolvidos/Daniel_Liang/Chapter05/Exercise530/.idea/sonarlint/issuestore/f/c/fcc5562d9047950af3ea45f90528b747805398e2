@@ -1,0 +1,21 @@
+
+d
+java:S1854"GRemove this useless assignment to local variable "monthlyInterestRate".(ş¼õª8€À²Û”1
+\
+java:S1854":Remove this useless assignment to local variable "amount".(Á´äéùÿÿÿÿ8À²Û”1
+j
+java:S1854"HRemove this useless assignment to local variable "totalAtTheEndOfMonth".(Ã¬ëÿÿÿÿÿ8À²Û”1
+i
+java:S1854"GRemove this useless assignment to local variable "monthlyInterestRate".(¾©Ãúÿÿÿÿ8À²Û”1
+h
+java:S1854"FRemove this useless assignment to local variable "annualInterestRate".(ù·éıÿÿÿÿ8öÇÛ”1
+W
+java:S1854":Remove this useless assignment to local variable "amount".(×”‘¦8¼¦ÈÛ”1
+H
+java:S1481"+Remove this unused "amount" local variable.(×”‘¦8„À²Û”1
+Z
+java:S1481"8Remove this unused "monthlyInterestRate" local variable.(¾©Ãúÿÿÿÿ8¾¦ÈÛ”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ô×”íüÿÿÿÿ8…À²Û”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãÛŒ…úÿÿÿÿ8†À²Û”1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(º–»¸ûÿÿÿÿ8†À²Û”1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ïŠü¶ıÿÿÿÿ8‡À²Û”1

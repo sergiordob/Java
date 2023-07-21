@@ -1,0 +1,7 @@
+
+S
+java:S2589"7Remove this expression which always evaluates to "true"(ÇÕ8ÇÕû¦–1
+F
+java:S1481")Remove this unused "flag" local variable.(Ä‰ÒÓ8¿”§–1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µëŠ•8Ÿ·Ó¦–1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Äˆ¼„ÿÿÿÿÿ8åÊ“§–1

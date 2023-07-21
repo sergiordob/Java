@@ -1,0 +1,17 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "ping".(Öüöåûÿÿÿÿ8ÚÈ ë“1
+a
+java:S1854"?Remove this useless assignment to local variable "squareMeter".(ë•Ã¯şÿÿÿÿ8ÚÈ ë“1
+W
+java:S1854"5Remove this useless assignment to local variable "j".(ÍœÏûÿÿÿÿ8ÚÈ ë“1
+W
+java:S1854"5Remove this useless assignment to local variable "i".(ÍœÏûÿÿÿÿ8ÚÈ ë“1
+A
+java:S1659"Declare "j" on a separate line.(ÍœÏûÿÿÿÿ8ÚÈ ë“1
+R
+java:S1481"0Remove this unused "squareMeter" local variable.(ë•Ã¯şÿÿÿÿ8ÛÈ ë“1
+K
+java:S1481")Remove this unused "ping" local variable.(Öüöåûÿÿÿÿ8ÛÈ ë“1
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(Ù“ô²úÿÿÿÿ8ÛÈ ë“1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ø±²p8ÜÈ ë“1

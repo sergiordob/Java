@@ -1,0 +1,9 @@
+
+c
+java:S1854"ARemove this useless assignment to local variable "sumOfTenYears".(Õ±Ëïşÿÿÿÿ8æÆÖ–1
+^
+java:S1854"ARemove this useless assignment to local variable "actualTuition".(äˆİ×8æÆÖ–1
+T
+java:S1481"2Remove this unused "sumOfTenYears" local variable.(Õ±Ëïşÿÿÿÿ8êÆÖ–1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(öªÒš8ëÆÖ–1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Í˜ö¡8ìÆÖ–1

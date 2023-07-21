@@ -1,0 +1,9 @@
+
+K
+java:S1481".Remove this unused "numerator" local variable.(‡‘“Õ8çÃî‡•1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ì©Õ—8èÃî‡•1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óÜÊùÿÿÿÿ8éÃî‡•1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8æ‘ï‡•1
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8æ‘ï‡•1

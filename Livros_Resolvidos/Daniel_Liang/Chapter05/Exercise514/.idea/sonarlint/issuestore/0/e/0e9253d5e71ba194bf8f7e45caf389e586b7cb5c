@@ -1,0 +1,8 @@
+
+e
+java:S1854"CRemove this useless assignment to local variable "integerMaxValue".(õâ€Òþÿÿÿÿ8™å½è‘1
+V
+java:S1481"4Remove this unused "integerMaxValue" local variable.(õâ€Òþÿÿÿÿ8›å½è‘1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ËÆ‡¥ýÿÿÿÿ8›å½è‘1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(»ü“Žúÿÿÿÿ8œå½è‘1
+J	java:S108")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ8œå½è‘1
