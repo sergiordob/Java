@@ -1,0 +1,10 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·»¶8ÄÉ½ø—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(á–»8ÕÉ½ø—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÑØ¯Ë8ÕÉ½ø—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ñÈ”î8ÕÉ½ø—1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»±•–ÿÿÿÿÿ8ÖÉ½ø—1
+>
+java:S1659"!Declare "min" on a separate line.(‰ìĞ…8ÖÉ½ø—1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ÏÚøÓûÿÿÿÿ8×É½ø—1
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8×É½ø—1

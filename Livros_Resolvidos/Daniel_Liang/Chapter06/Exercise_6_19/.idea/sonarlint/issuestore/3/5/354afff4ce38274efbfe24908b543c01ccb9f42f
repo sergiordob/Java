@@ -1,0 +1,17 @@
+
+y
+java:S1488-"\Immediately return this expression instead of assigning it to the temporary variable "area".(æÁ¯©8…ø´š1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(øì­üÿÿÿÿ8ˆø´š1
+a
+java:S1659	"DDeclare "sideTwo" and all following declarations on a separate line.(©ßñÎ8Âù´š1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(âÏÓ8Ùù´š1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÔÈ±úÿÿÿÿ8Üù´š1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(²™£ì8Şù´š1
+I
+java:S1125"'Remove the unnecessary boolean literal.(•‚ùáşÿÿÿÿ8åù´š1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¸ã8æù´š1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(è—¬Œüÿÿÿÿ8èù´š1
+N
+java:S1481",Remove this unused "isValid" local variable.(Ï¼åİıÿÿÿÿ8ìù´š1
+c
+java:S1126 "AReplace this if-then-else statement by a single return statement.(ƒ›Èÿÿÿÿÿ8ìù´š1

@@ -1,0 +1,7 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸º‡…şÿÿÿÿ8´Áì–˜1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(õ‚ïm8ÁÁì–˜1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ù†Ëÿÿÿÿÿ8ÂÁì–˜1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ñû£8ÃÁì–˜1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ßò¢Õ8ÃÁì–˜1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(”¶šòøÿÿÿÿ8ÃÁì–˜1

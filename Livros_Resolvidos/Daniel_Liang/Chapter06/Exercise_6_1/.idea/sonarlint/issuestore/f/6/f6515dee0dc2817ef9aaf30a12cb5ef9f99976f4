@@ -1,0 +1,15 @@
+
+…
+java:S1488"hImmediately return this expression instead of assigning it to the temporary variable "pentagonalNumber".(ß¹ú²8İ¿Ó—1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÖÍ©±8İ¿Ó—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‘’‡ƒ8İ¿Ó—1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ˆŞ¾ßÿÿÿÿÿ8İ¿Ó—1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ÿİ¿Ó—1
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚áì8Ÿİ¿Ó—1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–„™éúÿÿÿÿ8Ÿİ¿Ó—1
+G
+java:S3457"%String contains no format specifiers.(ŸÎ‘šıÿÿÿÿ8 İ¿Ó—1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÎ‘šıÿÿÿÿ8 İ¿Ó—1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¡İ¿Ó—1
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(½¹Šøüÿÿÿÿ8¢İ¿Ó—1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8İüÀÓ—1

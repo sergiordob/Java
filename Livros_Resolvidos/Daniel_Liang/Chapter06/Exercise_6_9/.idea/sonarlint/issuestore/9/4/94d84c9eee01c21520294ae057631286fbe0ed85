@@ -1,0 +1,18 @@
+
+}
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "kilogram".(Ó°òÒ8ï”‰ø—1
+z
+java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "pound".(•”‰Ô8ï”‰ø—1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å†Œ–8ï”‰ø—1
+y
+java:S2234"\Parameters to GetDisplay have the same names but not the same order as the method arguments.(÷Øà©8ö”‰ø—1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÖÓ¯8ö”‰ø—1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï®€Ÿúÿÿÿÿ8ö”‰ø—1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó¿åî8ö”‰ø—1
+W
+java:S1172":Remove these unused method parameters "kilogram", "pound".(Ó¿åî8÷”‰ø—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Œâ…8÷”‰ø—1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íê­…8÷”‰ø—1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(‰†¯–şÿÿÿÿ8÷”‰ø—1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ø”‰ø—1

@@ -1,0 +1,8 @@
+
+~
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "area".(„ü´Úıÿÿÿÿ8‹©Ÿô˜1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Íõ°æşÿÿÿÿ8Œ©Ÿô˜1
+d
+java:S2184"BCast one of the operands of this division operation to a "double".(ñ×àúÿÿÿÿ8Œ©Ÿô˜1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Á€ëÿÿÿÿÿ8’©Ÿô˜1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ä÷İ8“©Ÿô˜1
