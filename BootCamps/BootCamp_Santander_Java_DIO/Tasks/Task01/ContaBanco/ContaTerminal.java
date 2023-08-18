@@ -22,8 +22,6 @@ public class ContaTerminal
         System.out.print("Digite o valor para deposito: ");
         saldo = entrada.nextDouble();
         System.out.printf("%n%nOla %s, obrigado por criar uma conta em nosso banco, sua agencia eh %s, conta %d e seu saldo %.2f ja esta disponivel para saque.", nomeDoCliente, agencia, numero, saldo);
-
-
     }
 }
 
