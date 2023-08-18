@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-  <strong>Repositório dedicado ao BootCamp Backend Java ofertado pelo programa Santander Becas.</strong>
+  <img src="./bolsas_santander___santander_bootcamp_2023.png" alt="Texto Alternativo">
+</p>
+
+<p align="center">
+  <strong>Repositório dedicado ao BootCamp Backend Java ofertado pelo programa Santander Becas. Neste programa, fui selecionado entre 75000 candidatos, sendo contemplado com uma bolsa de estudos.</strong>
 </p>
 
 Site: https://app.becas-santander.com/pt-BR/program/bolsas-santander-santander-bootcamp-2023?category=STUDIES&track=search&applyId=6477ef884efbf73c4e4cbe3a
