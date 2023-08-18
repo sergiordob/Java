@@ -1,0 +1,20 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Œ÷†´üÿÿÿÿ8Ó¢¬Ü1
+]
+java:S3518";Make sure "count" can't be zero before doing this division.(•¯¥–ÿÿÿÿÿ8óóËÜ1
+]
+java:S1854";Remove this useless assignment to local variable "average".(•¯¥–ÿÿÿÿÿ8Ï¥èÜ1
+W
+java:S1854":Remove this useless assignment to local variable "number".(µãËö8×¢¬Ü1
+H
+java:S1481"+Remove this unused "number" local variable.(µãËö8Ù¢¬Ü1
+G
+java:S1481"*Remove this unused "index" local variable.(ìüà·8Ù¢¬Ü1
+G
+java:S3457"%String contains no format specifiers.(×Äû¸ıÿÿÿÿ8Ú¢¬Ü1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(×Äû¸ıÿÿÿÿ8Ú¢¬Ü1
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Üö”€8ºêÄÜ1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(£µ÷à8ŞïÅÜ1
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(€€’ªûÿÿÿÿ8ËØÆÜ1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(»ÜÃ·ıÿÿÿÿ8‘ºÇÜ1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(ó¤€êûÿÿÿÿ8È¿ÉÜ1

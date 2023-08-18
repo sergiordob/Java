@@ -1,0 +1,17 @@
+
+
+java:S1488+"_Immediately return this expression instead of assigning it to the temporary variable "average".(Øõûøÿÿÿÿ8øŠñ„1
+
+java:S1488:"_Immediately return this expression instead of assigning it to the temporary variable "average".(Øõûøÿÿÿÿ8øŠñ„1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÈÆ”®øÿÿÿÿ8ùŠñ„1
+]
+java:S3518+";Make sure "count" can't be zero before doing this division.(Øõûøÿÿÿÿ8‰‹ñ„1
+]
+java:S3518:";Make sure "count" can't be zero before doing this division.(Øõûøÿÿÿÿ8‰‹ñ„1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ä‰Š¢8‹ñ„1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8‹ñ„1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ•§w8‹ñ„1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÁ˜°8‹ñ„1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿâŞäøÿÿÿÿ8‹ñ„1
+K
+java:S1905:")Remove this unnecessary cast to "double".(Øõûøÿÿÿÿ8‘‹ñ„1

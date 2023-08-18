@@ -1,0 +1,12 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í¦»Ôşÿÿÿÿ8±îŸ1
+_
+java:S35180"=Make sure "largest" can't be zero before doing this division.(¤‰¹şüÿÿÿÿ8•±îŸ1
+N
+java:S1481
+",Remove this unused "largest" local variable.(‰ˆĞ’ûÿÿÿÿ8˜±îŸ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(éÍ8˜±îŸ1
+G
+java:S3457"%String contains no format specifiers.(óÇ·§şÿÿÿÿ8˜±îŸ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óÇ·§şÿÿÿÿ8˜±îŸ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(—¬–’8™±îŸ1
