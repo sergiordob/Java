@@ -1,0 +1,24 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áòžÐ8ó´´‘¥1
+[
+java:S1854"9Remove this useless assignment to local variable "input".(Úî¿òøÿÿÿÿ8ù´´‘¥1
+L
+java:S1481"*Remove this unused "input" local variable.(Úî¿òøÿÿÿÿ8ü´´‘¥1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ý·â×ûÿÿÿÿ8þ´´‘¥1
+a
+java:S3252"?Use static access with "java.util.Calendar" for "DAY_OF_MONTH".(ý·â×ûÿÿÿÿ8þ´´‘¥1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ò€–Ü8þ´´‘¥1
+U
+java:S3252"8Use static access with "java.util.Calendar" for "MONTH".(ò€–Ü8ÿ´´‘¥1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ºÃ§Ë8ÿ´´‘¥1
+\
+java:S3252"?Use static access with "java.util.Calendar" for "DAY_OF_MONTH".(ºÃ§Ë8«â¦œ¥1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ðÚ¡³ùÿÿÿÿ8€µ´‘¥1
+Y
+java:S3252"7Use static access with "java.util.Calendar" for "YEAR".(ðÚ¡³ùÿÿÿÿ8ß©£œ¥1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ò€–Ü8šé¥œ¥1
+U
+java:S3252"8Use static access with "java.util.Calendar" for "MONTH".(ò€–Ü8šé¥œ¥1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ºÃ§Ë8ÐÃ§œ¥1
+\
+java:S3252"?Use static access with "java.util.Calendar" for "DAY_OF_MONTH".(ºÃ§Ë8ÐÃ§œ¥1
