@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./Capa.png" alt="Texto Alternativo">
+  <img src="./UML.jpg" alt="Texto Alternativo">
 </p>
 
 <p align="center">
-  <strong>Repositório dedicado à Especialização Lato Sensu em Desenvolvimento FullStack, ministrada pela UNIESP - Instituto de Educação Superior da Paraíba -.</strong>
+  <strong>Diagrama de classes</strong>
 </p>
 
 # acme-store
