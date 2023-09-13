@@ -1,53 +1,10 @@
-<p align="center">
-  <img src="./Capa.png" alt="Texto Alternativo">
-</p>
+acme-store
+Esse projeto está sendo desenvolvido para a disciplina de arquitetura e design de software do MBA Full Stack - UNIESP
 
-<p align="center">
-  <strong>Repositório dedicado à Especialização Lato Sensu em Desenvolvimento FullStack, ministrada pela UNIESP - Instituto de Educação Superior da Paraíba -.</strong>
-</p>
-
-
-Site: https://www.iesp.edu.br/institucional/a-faculdade
-
-Breve resumo sobre a instituição: 
-
-O UNIESP Centro Universitário, anteriormente Instituto de Educação Superior da Paraíba, é uma instituição privada de ensino superior mantida pela Sociedade de Ensino Superior da Paraíba.
-
-Criada em 12 de junho de 1994 e credenciada inicialmente pela Portaria MEC nº. 222, de 6 de março de 1998, publicada no D.O.U. de 10/03/1998, foi ao longo dos anos ganhando destaque em excelência acadêmica e estrutura de campus, ganhando o Conceito 5[3] do Ministério da Educação.
-
-Hoje, o UNIESP é a terceira maior instituição privada de ensino superior em referência no Estado da Paraíba, e a primeira no segmento de ensino de ciências relacionadas à tecnologias da computação. Seu Campus Universitário está localizado no Km 14 da Rodovia BR 230, no município de Cabedelo, região metropolitana de João Pessoa. Em 18 de outubro de 2019, através da Portaria MEC nº. 1.785 foi recredenciada como Centro Universitário, alterando sua nomenclatura antes conhecida como IESP para UNIESP.
-
-O regime de ingressantes é realizado através de processo seletivo (vestibular) tradicional ou agendado, realizado a cada semestre letivo, como também através do ENEM, de financiamentos estudantis, de transferência de outras instituições e de ingressos de graduados.
-
-O Campus do UNIESP é formado por 8 blocos divididos entre letras e cores temáticas.
-
-Disciplinas:
-
-- Design e Arquitetura I
-  
-- Design e Arquitetura II
-
-- The Spring Stack
-
-- Microservices
-
-- Cloud Bootcamp
-
-- Devops Bootcamp I
-
-- Devops Bootcamp II
-
-- Front-end 
-
-- Angular Bootcamp
-
-- MERN Bootcamp I
-
-- MERN Bootcamp II
-
-- Web Hackathon
-
-- Automação de Testes de Software
-
-- Pentest em Aplicações Web
-- Metodologia do Trabalho Científico
+Contexto Domínio do Problema
+O projeto refere-se a um simulador de ecommerce, onde um cliente poderá realizar compras de produtos, utilizando a modalidade de compra com cartão de crédito. Nesse contexto, a compra será realizada pelo cliente informando os dados dos produtos adquiridos assim como os dados do cartão de crédito utilizado na compra.
+Processo de Compra
+Ao realizar um pedido, o cliente receberá a informação de compra em processamento, o sistema executará fase para avlidar a compra: 1 - O sistema irá realizar uma verificação dos dados do cliente 2 - O sistema irá realizar uma verificação dos dados do cartão do cliente, em um serviço apartado, que retornará a validade ou não dos dados do cartão do cliente. 3 - Em caso afirmativo para os porntos 1 ou 2 o sistema irá processar o pedido dando baixa no estoque dos produtos comprados, prepara as informações da compra, e envia a mensagem para o cliente informando que a sua compra foi realizada com sucesso. 4 - Em caso negativo para os pontos 1 ou 2, o sistema irá emitir uma mensagem para o cliente informando que a compra não pode ser realizada pasando para o cliente a melhor mensagem possível à deponder do caso que invalidou a compra que pode ser os seguintes motivos:
+Falta de limite no cartão - Mensagem fria
+Restrição do cartão por falta de pagamento (fatura) - Mensagem morna
+Restrição do cartão por motivos de fraude - Mensagem quente. Em todos os casos apresentados acima, haverá um registro/notificação desse processo em uma base de dados de suporte a fraude.
