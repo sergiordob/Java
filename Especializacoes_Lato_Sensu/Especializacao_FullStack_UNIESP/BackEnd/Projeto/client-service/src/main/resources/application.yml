@@ -1,0 +1,28 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ms-client-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 'postgres'
+    username: 'postgres'
+    url: jdbc:postgresql://localhost:5432/card-database-postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate.format_sql: true
+      hibernate.show-sql: true
+card:
+  getcards:
+    url: "http://localhost:8082/api/v1/cards"
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    registry-with-eureka: true
+    fetch-registry: true
