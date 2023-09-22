@@ -16,12 +16,14 @@
 - Sobrecarga (Secção 4.2)
 - Classes principais/de teste (Secção 4.2)
 - toString() (Secção 4.4)
+- Entrada por meio de teclado (Secção 5.1)
+- Operadores booleanos e ternários (Secção 5.1)
 
 ### Instruções
 
-1 - Para a primeira parte do projeto, é necessário refletir sobre o que o sistema de inventário irá armazenar.
+1 - Atualizar o Projeto 01 a.
 
-a) Pense em produtos específicos que se prestam a ser armazenados num inventário (por exemplo, produtos em sua casa, escola ou local de trabalho: podem ser das seguintes categorias: material de escritório, CDs de música, filmes em DVD ou software). Escreva uma lista de pelo menos 6 produtos que pretende armazenar no seu sistema. Este projeto pode ser utilizado para armazenar uma vasta gama de produtos.
+a) Modifique a classe de teste:
 
 Para cada um dos produtos que identificou, preencha o quadro seguinte:
 
