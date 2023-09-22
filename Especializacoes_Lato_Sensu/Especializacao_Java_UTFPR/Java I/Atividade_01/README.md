@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Capa.png" alt="Texto Alternativo">
+  <img src="./UML.png" alt="Texto Alternativo">
 </p>
 
 <p align="center">
