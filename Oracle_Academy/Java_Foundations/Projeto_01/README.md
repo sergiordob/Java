@@ -2,9 +2,7 @@
   <img src="./Capa.png" alt="Texto Alternativo">
 </p>
 
-# Criando um projeto de inventário
-
-> Descrição Geral
+# Descrição
 
 - Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
 
