@@ -6,7 +6,7 @@
 
 > Descrição Geral
 
-Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
+- Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
 
 ## Installing / Getting started
 
