@@ -21,9 +21,7 @@
 
 ### Instruções
 
-1 - Atualizar o Projeto 01 a.
-
-2 - Modifique a classe de teste:
+1 - Modifique a classe de teste:
 
 a) Adicione um Scanner chamado no início do seu método principal.
 
@@ -32,6 +30,22 @@ b) Crie variáveis locais que armazenarão valores para cada um dos atributos da
 c) Peça ao utilizador para introduzir valores para cada um dos atributos da classe "Produto". Peça o nome, a quantidade, o preço e o número do item, guarde os valores nas variáveis locais temporárias que acabou de criar.
 
 d) Utilize os valores que foram introduzidos pelo utilizador para criar o objeto p1. Isto significa que vai utilizar o construtor que recebe 4 parâmetros em vez do construtor predefinido.
+
+2 - Peça ao utilizador que forneça valores para p2.
+
+a) Utilize as mesmas variáveis locais que anteriormente para obter a entrada do utilizador para criar o objeto p2. Copie e cole o código após a linha que cria o objeto p1.
+
+b) Execute o programa e identifique onde ocorreu um erro.
+
+c) O programa não parece pedir um valor para nome. Isto deve-se ao facto de o último valor introduzido ter sido um valor numérico e ter deixado alguns caracteres especiais no buffer de entrada. Para limpar o buffer de entrada, adicione a seguinte instrução antes de pedir qualquer valor para p2:
+in.nextLine();
+Esta instrução recebe todos os valores armazenados na memória intermédia e elimina-os, deixando uma memória intermédia vazia.
+
+d) Execute o programa agora, ele deve estar livre de erros e mostrar todos os valores, incluindo os valores introduzidos pelo utilizador, na consola.
+
+e) Feche o objeto Scanner quando tiver terminado.
+
+
 
 
 
