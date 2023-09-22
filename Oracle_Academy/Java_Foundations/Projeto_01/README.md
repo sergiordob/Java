@@ -1,4 +1,6 @@
-![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
+<p align="center">
+  <img src="./Capa.jpg" alt="Texto Alternativo">
+</p>
 
 # Criando um projeto de inventário
 
