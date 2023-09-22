@@ -17,10 +17,13 @@
 - Classes principais/de teste (Secção 4.2)
 - toString() (Secção 4.4)
 
-### Initial Configuration
+### Instruções
 
-Some projects require initial configuration (e.g. access tokens or keys, `npm i`).
-This is the section where you would document those requirements.
+- Para a primeira parte do projeto, é necessário refletir sobre o que o sistema de inventário irá armazenar.
+
+a. Pense em produtos específicos que se prestam a ser armazenados num inventário (por exemplo, produtos em sua casa, escola ou local de trabalho: podem ser das seguintes categorias: material de escritório, CDs de música, filmes em DVD ou software). Escreva uma lista de pelo menos 6 produtos que pretende armazenar no seu sistema. Este projeto pode ser utilizado para armazenar uma vasta gama de produtos.
+
+Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
 
 ## Developing
 
