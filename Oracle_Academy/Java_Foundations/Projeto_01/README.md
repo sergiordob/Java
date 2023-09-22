@@ -25,11 +25,11 @@ a) Pense em produtos específicos que se prestam a ser armazenados num inventár
 
 Para cada um dos produtos que identificou, preencha o quadro seguinte:
 
-| Atributo | Dados de amostra | Cabeçalho 3 |
-|-------------|-------------|-------------|
-| Nome do produto | Linha 1, Coluna 2 | Linha 1, Coluna 3 |
-| Preço do produto | Linha 2, Coluna 2 | Linha 2, Coluna 3 |
-| Número de unidades no estoque | Linha 3, Coluna 2 | Linha 3, Coluna 3 |
+| Atributo | Dados de amostra | 
+|-------------|-------------|
+| Nome do produto | ---- | Linha 1, Coluna 3 |
+| Preço do produto | ---- | Linha 2, Coluna 3 |
+| Número de unidades no estoque | ---- | Linha 3, Coluna 3 |
 
 
 Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
