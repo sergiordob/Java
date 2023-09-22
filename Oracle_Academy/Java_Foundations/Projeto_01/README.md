@@ -40,112 +40,42 @@ Para cada um dos produtos que identificou, preencha o quadro seguinte:
 | Número de unidades no estoque | ---- | ---- |
 | Número do item | ---- | ---- |
 
+3 - Crie um projeto chamado "Inventário".
 
-## Developing
+4- Crie um objeto de classe chamado "Produto"
 
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
+5 - Adicione os seguintes campos privados:
 
-```shell
-git clone https://github.com/your/awesome-project.git
-cd awesome-project/
-packagemanager install
-```
+a) Número do item.
+b) Nome do produto.
+c) Número de unidades no estoque.
+d) Preço de cada unidade.
 
-And state what happens step-by-step.
+6 - Adicione um comentário no campo de declaracao de instância.
 
-### Building
+7 - Crie dois construtores:
 
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here:
+a) Um construtor padrão, sem parâmetros, que permitirá ao compilador inicializar os campos com os seus valores predefinidos. Adicione um comentário acima do seu construtor que explique o objetivo do código.
 
-```shell
-./configure
-make
-make install
-```
+b) Um construtor sobrecarregado com os parâmetros: número, name, quantidade, preço.
 
-Here again you should state what actually happens when the code above gets
-executed.
+8 - Implementar os métodos gets / sets para cada uma das quatro variáveis de instância. Adicione comentários para explicar o propósito.
 
-### Deploying / Publishing
+9 - Substitua o método toString() da classe de objeto para mostrar uma descrição de cada objeto Produto que inclua os valores do campo de instância no seguinte formato:
 
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
+| Número do produto | 1 |
+| Nome | Melhores Hits | 
+| Quantidade no estoque | 25 |
+| Preço | 9.99 |
 
-```shell
-packagemanager deploy awesome-project -s server.com -u username -p password
-```
+10 - Crie uma classe main que realize os testes.
 
-And again you'd need to tell what the previous code actually does.
+11 - Crie e inicialize seis objetos "produto" com base na lista que criou na tarefa 1.
 
-## Features
+a) Dois dos produtos devem ser criados utilizando o construtor predefinido.
 
-What's all the bells and whistles this project can perform?
-* What's the main functionality
-* You can also do another thing
-* If you get really randy, you can even do this
+b) Os outros quatro devem ser criados fornecendo valores para os argumentos que correspondem aos parâmetros do construtor.
 
-## Configuration
+12 - Utilizando a classe "ProductTester", apresente os detalhes de cada produto na consola.
 
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
-#### Argument 1
-Type: `String`  
-Default: `'default value'`
-
-State what an argument does and how you can use it. If needed, you can provide
-an example below.
-
-Example:
-```bash
-awesome-project "Some other value"  # Prints "You're nailing this readme!"
-```
-
-#### Argument 2
-Type: `Number|Boolean`  
-Default: 100
-
-Copy-paste as many of these as you need.
-
-## Contributing
-
-When you publish something open source, one of the greatest motivations is that
-anyone can just jump in and start contributing to your project.
-
-These paragraphs are meant to welcome those kind souls to feel that they are
-needed. You should state something like:
-
-"If you'd like to contribute, please fork the repository and use a feature
-branch. Pull requests are warmly welcome."
-
-If there's anything else the developer needs to know (e.g. the code style
-guide), you should link it here. If there's a lot of things to take into
-consideration, it is common to separate this section to its own file called
-`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
-
-## Links
-
-Even though this information can be found inside the project on machine-readable
-format like in a .json file, it's good to include a summary of most useful
-links to humans using your project. You can include links like:
-
-- Project homepage: https://your.github.com/awesome-project/
-- Repository: https://github.com/your/awesome-project/
-- Issue tracker: https://github.com/your/awesome-project/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-- Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
-
-
-## Licensing
-
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
-
-"The code in this project is licensed under MIT license."
+13 - Salve o projeto.
