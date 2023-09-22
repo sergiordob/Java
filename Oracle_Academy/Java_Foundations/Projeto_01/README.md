@@ -19,7 +19,7 @@
 
 ### Instruções
 
-- Para a primeira parte do projeto, é necessário refletir sobre o que o sistema de inventário irá armazenar.
+1 - Para a primeira parte do projeto, é necessário refletir sobre o que o sistema de inventário irá armazenar.
 
 a) Pense em produtos específicos que se prestam a ser armazenados num inventário (por exemplo, produtos em sua casa, escola ou local de trabalho: podem ser das seguintes categorias: material de escritório, CDs de música, filmes em DVD ou software). Escreva uma lista de pelo menos 6 produtos que pretende armazenar no seu sistema. Este projeto pode ser utilizado para armazenar uma vasta gama de produtos.
 
@@ -30,6 +30,8 @@ Para cada um dos produtos que identificou, preencha o quadro seguinte:
 | Nome do produto | ---- |
 | Preço do produto | ---- | 
 | Número de unidades no estoque | ---- |
+
+- O passo seguinte é pensar nos tipos de dados corretos que irá utilizar para armazenar os valores no seu sistema. Para tal, adicione outra coluna à sua tabela que identifique o tipo de dados correto para cada valor que identificou.
 
 ## Developing
 
