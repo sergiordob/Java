@@ -16,31 +16,12 @@ A Oracle Academy é um programa educacional global oferecido pela Oracle Corpora
 
 Disciplinas:
 
-- Design e Arquitetura I
+- Java Fundamentals
+
+- Java Foundations
+
+- Java Programming
+
+- Artificial Intelligence with Machine Learning in Java
+
   
-- Design e Arquitetura II
-
-- The Spring Stack
-
-- Microservices
-
-- Cloud Bootcamp
-
-- Devops Bootcamp I
-
-- Devops Bootcamp II
-
-- Front-end 
-
-- Angular Bootcamp
-
-- MERN Bootcamp I
-
-- MERN Bootcamp II
-
-- Web Hackathon
-
-- Automação de Testes de Software
-
-- Pentest em Aplicações Web
-- Metodologia do Trabalho Científico
