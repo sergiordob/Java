@@ -63,11 +63,12 @@ b) Um construtor sobrecarregado com os parâmetros: número, name, quantidade, p
 
 9 - Substitua o método toString() da classe de objeto para mostrar uma descrição de cada objeto Produto que inclua os valores do campo de instância no seguinte formato:
 
-|-------------|-------------|
-| Número do produto | 1 |
-| Nome | Melhores Hits | 
-| Quantidade no estoque | 25 |
-| Preço | 9.99 |
+|-----------------------|-------------|
+| Número do produto     | 1           |
+| Nome                  | Melhores Hits |
+| Quantidade no estoque | 25          |
+| Preço                 | 9.99        |
+
 
 10 - Crie uma classe main que realize os testes.
 
