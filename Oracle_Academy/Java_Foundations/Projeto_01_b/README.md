@@ -4,7 +4,7 @@
 
 # Descrição:
 
-- Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
+- Atualize o projeto 01 a
 
 ## Tópicos abordados:
 
