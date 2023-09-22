@@ -26,8 +26,11 @@
 2 - Modifique a classe de teste:
 
 a) Adicione um Scanner chamado no início do seu método principal.
+
 b) Crie variáveis locais que armazenarão valores para cada um dos atributos da classe Produto. Nomeie as variáveis tempNumber, tempName, tempQty e tempPrice.
+
 c) Peça ao utilizador para introduzir valores para cada um dos atributos da classe "Produto". Peça o nome, a quantidade, o preço e o número do item, guarde os valores nas variáveis locais temporárias que acabou de criar.
+
 d) Utilize os valores que foram introduzidos pelo utilizador para criar o objeto p1. Isto significa que vai utilizar o construtor que recebe 4 parâmetros em vez do construtor predefinido.
 
 
