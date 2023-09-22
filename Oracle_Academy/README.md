@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <strong>Repositório dedicado à Especialização Lato Sensu em Desenvolvimento FullStack, ministrada pela UNIESP - Instituto de Educação Superior da Paraíba -.</strong>
+  <strong>Repositório dedicado ao Oracle Academy -.</strong>
 </p>
 
 
-Site: https://www.iesp.edu.br/institucional/a-faculdade
+Site: https://academy.oracle.com/en/oa-web-overview.html
 
 Breve resumo sobre a instituição: 
 
