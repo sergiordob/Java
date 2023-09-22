@@ -21,7 +21,16 @@
 
 - Para a primeira parte do projeto, é necessário refletir sobre o que o sistema de inventário irá armazenar.
 
-a. Pense em produtos específicos que se prestam a ser armazenados num inventário (por exemplo, produtos em sua casa, escola ou local de trabalho: podem ser das seguintes categorias: material de escritório, CDs de música, filmes em DVD ou software). Escreva uma lista de pelo menos 6 produtos que pretende armazenar no seu sistema. Este projeto pode ser utilizado para armazenar uma vasta gama de produtos.
+a) Pense em produtos específicos que se prestam a ser armazenados num inventário (por exemplo, produtos em sua casa, escola ou local de trabalho: podem ser das seguintes categorias: material de escritório, CDs de música, filmes em DVD ou software). Escreva uma lista de pelo menos 6 produtos que pretende armazenar no seu sistema. Este projeto pode ser utilizado para armazenar uma vasta gama de produtos.
+
+Para cada um dos produtos que identificou, preencha o quadro seguinte:
+
+| Atributo | Dados de amostra | Cabeçalho 3 |
+|-------------|-------------|-------------|
+| Nome do produto | Linha 1, Coluna 2 | Linha 1, Coluna 3 |
+| Preço do produto | Linha 2, Coluna 2 | Linha 2, Coluna 3 |
+| Número de unidades no estoque | Linha 3, Coluna 2 | Linha 3, Coluna 3 |
+
 
 Traduzido com a versão gratuita do tradutor - www.DeepL.com/Translator
 
