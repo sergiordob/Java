@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <strong>Diagrama de Classes -.</strong>
+  <strong>Diagrama de Classes.</strong>
 </p>
 
 
