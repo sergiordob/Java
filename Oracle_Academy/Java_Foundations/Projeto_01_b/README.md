@@ -37,7 +37,7 @@ a) Utilize as mesmas variáveis locais que anteriormente para obter a entrada do
 
 b) Execute o programa e identifique onde ocorreu um erro.
 
-c) O programa não parece pedir um valor para nome. Isto deve-se ao facto de o último valor introduzido ter sido um valor numérico e ter deixado alguns caracteres especiais no buffer de entrada. Para limpar o buffer de entrada, adicione a seguinte instrução antes de pedir qualquer valor para p2:
+c) O programa não parece pedir um valor para nome. Isto deve-se ao fato de o último valor introduzido ter sido um valor numérico e ter deixado alguns caracteres especiais no buffer de entrada. Para limpar o buffer de entrada, adicione a seguinte instrução antes de pedir qualquer valor para p2:
 in.nextLine();
 Esta instrução recebe todos os valores armazenados na memória intermédia e elimina-os, deixando uma memória intermédia vazia.
 
@@ -45,52 +45,13 @@ d) Execute o programa agora, ele deve estar livre de erros e mostrar todos os va
 
 e) Feche o objeto Scanner quando tiver terminado.
 
+3 - É desejável poder marcar os seus produtos como activos ou descontinuados. Se um produto for descontinuado, significa que o stock restante será o último e que não serão feitas mais encomendas.
 
+a. Adicione um campo de instância booleano à sua classe Produto chamado ativo, que tem um valor predefinido de verdadeiro.
 
+b. Crie métodos getter/setter para este novo campo.
 
-
-
-
-
-
-
-| Atributo | Dados de amostra | 
-|-------------|-------------|
-| Nome do produto | ---- |
-| Preço do produto | ---- | 
-| Número de unidades no estoque | ---- |
-
-2 - O passo seguinte é pensar nos tipos de dados corretos que irá utilizar para armazenar os valores no seu sistema. Para tal, adicione outra coluna à sua tabela que identifique o tipo de dados correto para cada valor que identificou.
-
-| Atributo | Dados de amostra | Tipo de dado |
-|-------------|-------------|-------------|
-| Nome do produto | ---- | ---- |
-| Preço do produto |---- | ---- |
-| Número de unidades no estoque | ---- | ---- |
-| Número do item | ---- | ---- |
-
-3 - Crie um projeto chamado "Inventário".
-
-4- Crie um objeto de classe chamado "Produto"
-
-5 - Adicione os seguintes campos privados:
-
-a) Número do item.
-b) Nome do produto.
-c) Número de unidades no estoque.
-d) Preço de cada unidade.
-
-6 - Adicione um comentário no campo de declaracao de instância.
-
-7 - Crie dois construtores:
-
-a) Um construtor padrão, sem parâmetros, que permitirá ao compilador inicializar os campos com os seus valores predefinidos. Adicione um comentário acima do seu construtor que explique o objetivo do código.
-
-b) Um construtor sobrecarregado com os parâmetros: número, name, quantidade, preço.
-
-8 - Implementar os métodos gets / sets para cada uma das quatro variáveis de instância. Adicione comentários para explicar o propósito.
-
-9 - Substitua o método toString() da classe de objeto para mostrar uma descrição de cada objeto Produto que inclua os valores do campo de instância no seguinte formato:
+c. Adicione o valor deste novo campo ao método toString() de modo a que o resultado corresponda ao seguinte:
 
 | Campo                 | Valor       |
 |-----------------------|-------------|
@@ -99,14 +60,27 @@ b) Um construtor sobrecarregado com os parâmetros: número, name, quantidade, p
 | Quantidade no estoque | 25          |
 | Preço                 | 9.99        |
 
-10 - Crie uma classe main que realize os testes.
+4 - Quando se executa o código, obtém-se um valor impresso para ativo como verdadeiro ou falso. Isto não é fácil de utilizar e seria melhor se a saída indicasse Ativo (verdadeiro) ou Descontinuado (falso). Para o efeito, adicione um operador ternário no método toString().
 
-11 - Crie e inicialize seis objetos "produto" com base na lista que criou na tarefa 1.
+5 - Chame o setter da classe driver e defina o valor ativo como false para o objeto p6 antes de apresentar os valores no ecrã. Execute e teste o seu código.
+   
+6 - Crie um método na classe Produto que devolva o valor do inventário para cada item. Utilize o preço do produto multiplicado pela quantidade de stock para calcular o valor do inventário. Não utilize nenhuma variável local neste método, apenas devolva o valor numa única linha de código.
 
-a) Dois dos produtos devem ser criados utilizando o construtor predefinido.
+7 - Atualize o método toString() da classe Product para incluir uma chamada ao método getInventoryValue() que acabou de criar, de modo a que o resultado seja o seguinte:
 
-b) Os outros quatro devem ser criados fornecendo valores para os argumentos que correspondem aos parâmetros do construtor.
+| Campo                 | Valor       |
+|-----------------------|-------------|
+| Número do produto     | 1           |
+| Nome                  | Melhores Hits |
+| Quantidade no estoque | 25          |
+| Preço                 | 9.99        |
+| Valor do estoque      | 249.75      |
+| Status do produto     | true        |
 
-12 - Utilizando a classe "ProductTester", apresente os detalhes de cada produto na consola.
+8 - Salve o projeto.
 
-13 - Salve o projeto.
+
+
+
+
+
