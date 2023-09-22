@@ -2,22 +2,20 @@
   <img src="./Capa.png" alt="Texto Alternativo">
 </p>
 
-# Descrição
+# Descrição:
 
 - Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
 
-## Installing / Getting started
+## Tópicos abordados:
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
-
-```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
-```
-
-Here you should say what actually happens when you execute the code above.
+- Tipos de dados (Secção 4.3)
+- Criar classes/objectos (Secção 4.2)
+- Variáveis de instância/campos (Secção 4.2)
+- Construtores (Secção 4.2)
+- Métodos (getters/acessores, setters/mutadores) (Secção 4.2)
+- Sobrecarga (Secção 4.2)
+- Classes principais/de teste (Secção 4.2)
+- toString() (Secção 4.4)
 
 ### Initial Configuration
 
