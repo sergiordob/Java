@@ -11,7 +11,8 @@
   <img src="./Capa.png" alt="Texto Alternativo">
 </p>
 
-# Descrição:
+
+## Descrição:
 
 - DESENVOLVA UMA APLICAÇÃO NA LINGUAGEM DE PROGRAMAÇÃO JAVA ATENDENDO OS SEGUINTES REQUISITOS LISTADOS
 
