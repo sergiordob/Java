@@ -31,7 +31,15 @@ Para cada um dos produtos que identificou, preencha o quadro seguinte:
 | Preço do produto | ---- | 
 | Número de unidades no estoque | ---- |
 
-- O passo seguinte é pensar nos tipos de dados corretos que irá utilizar para armazenar os valores no seu sistema. Para tal, adicione outra coluna à sua tabela que identifique o tipo de dados correto para cada valor que identificou.
+2 - O passo seguinte é pensar nos tipos de dados corretos que irá utilizar para armazenar os valores no seu sistema. Para tal, adicione outra coluna à sua tabela que identifique o tipo de dados correto para cada valor que identificou.
+
+| Atributo | Dados de amostra | Tipo de dado |
+|-------------|-------------|-------------|
+| Nome do produto | ---- | ---- |
+| Preço do produto |---- | ---- |
+| Número de unidades no estoque | ---- | ---- |
+| Número do item | ---- | ---- |
+
 
 ## Developing
 
