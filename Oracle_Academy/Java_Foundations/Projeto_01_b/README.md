@@ -47,11 +47,11 @@ e) Feche o objeto Scanner quando tiver terminado.
 
 3 - É desejável poder marcar os seus produtos como activos ou descontinuados. Se um produto for descontinuado, significa que o stock restante será o último e que não serão feitas mais encomendas.
 
-a. Adicione um campo de instância booleano à sua classe Produto chamado ativo, que tem um valor predefinido de verdadeiro.
+a) Adicione um campo de instância booleano à sua classe Produto chamado ativo, que tem um valor predefinido de verdadeiro.
 
-b. Crie métodos getter/setter para este novo campo.
+b) Crie métodos getter/setter para este novo campo.
 
-c. Adicione o valor deste novo campo ao método toString() de modo a que o resultado corresponda ao seguinte:
+c) Adicione o valor deste novo campo ao método toString() de modo a que o resultado corresponda ao seguinte:
 
 | Campo                 | Valor       |
 |-----------------------|-------------|
