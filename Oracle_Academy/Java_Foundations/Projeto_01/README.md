@@ -4,10 +4,9 @@
 
 # Criando um projeto de inventário
 
-> Additional information or tagline
+> Descrição Geral
 
-A brief description of your project, what it is used for and how does life get
-awesome when someone starts to use it.
+Crie um programa de inventário que possa ser utilizado para uma série de produtos diferentes (cds, dvds, software, etc.).
 
 ## Installing / Getting started
 
