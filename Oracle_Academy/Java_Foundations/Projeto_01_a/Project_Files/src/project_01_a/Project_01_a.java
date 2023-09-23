@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package project_01;
+package project_01_a;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Sergio
  */
-public class Project_01 {
+public class Project_01_a {
 
     /**
      * @param args the command line arguments

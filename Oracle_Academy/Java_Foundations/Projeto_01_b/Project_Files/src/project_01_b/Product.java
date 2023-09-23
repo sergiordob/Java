@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package project_01;
+package project_01_b;
 
 /**
  *
@@ -15,6 +15,7 @@ public class Product {
     private String nameOfTheProduct;
     private int numberOfUnitsInStock;
     private double priceOfEachUnit;
+    private boolean active;
     
     //Default constructor
         public Product(){
@@ -22,6 +23,7 @@ public class Product {
             this.nameOfTheProduct = "";
             this.numberOfUnitsInStock = 0;
             this.priceOfEachUnit = 0.0;
+            this.active = true;
         }
         
     //Overloaded constructor    
@@ -30,6 +32,7 @@ public class Product {
             this.nameOfTheProduct = nameOfTheProduct;
             this.numberOfUnitsInStock = numberOfUnitsInStock;
             this.priceOfEachUnit = priceOfEachUnit;
+            this.active = true;
         }
         
     //Gets    
@@ -47,6 +50,10 @@ public class Product {
         
         public double getPriceOfEachUnit(){
             return this.priceOfEachUnit;
+        }
+        
+        public boolean getIsActive(){
+            return  this.active;
         }
     
     //Sets    
@@ -66,16 +73,25 @@ public class Product {
             this.priceOfEachUnit = priceOfEachUnit;
         }
         
-    //toString
-        public String toString(){
-            String string = "";
-            
-            string = "Item number: " + getItemNumber()
-                    + "\nName of the product: " + getNameOfTheProduct()
-                    + "\nNumber of units in stock: " + getNumberOfUnitsInStock()
-                    + "\nPrice of each unit: " + getPriceOfEachUnit();
-                       
-            return string;        
+        public void setIsActive(boolean active){
+            this.active = active;
         }
-          
+        
+    //Method to return the value of the item stored in the inventary
+        public double getInventoryValue(){
+            return this.getPriceOfEachUnit() * this.getNumberOfUnitsInStock();
+        }
+        
+    //toString
+        public String toString() {
+        String string = "\nItem number: " + getItemNumber()
+                  + "\nName of the product: " + getNameOfTheProduct()
+                  + "\nNumber of units in stock: " + getNumberOfUnitsInStock()
+                  + "\nPrice of each unit: " + getPriceOfEachUnit()
+                  + "\nProduct status: " + (getIsActive() == true ? "Active\n" : "Discontinued"
+                  + "\nStock value: " + getInventoryValue()
+                  + "\n");
+    return string;
+}
+
 }
