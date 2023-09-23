@@ -4,7 +4,7 @@
 
 # Descrição:
 
-- Atualize o projeto 01 a
+- Atualize o projeto 01 b
 
 ## Tópicos abordados:
 
@@ -18,69 +18,63 @@
 - toString() (Secção 4.4)
 - Entrada por meio de teclado (Secção 5.1)
 - Operadores booleanos e ternários (Secção 5.1)
+- Loops (Secção 5.2 w 6.1)
+- Tratamento de exceções (Secção 6.2)
+- If/Else (Secção 5.1)
+- Arrays de objetos (Secção 6.1)
 
 ### Instruções
 
-1 - Modifique a classe de teste:
+1 - Pedir ao utilizador para introduzir o número de produtos que pretende adicionar. Aceite um número inteiro positivo para o número de produtos e trate o valor de zero.
 
-a) Adicione um Scanner chamado no início do seu método principal.
+a) Crie uma variável chamada maxSize que possa armazenar números inteiros.
 
-b) Crie variáveis locais que armazenarão valores para cada um dos atributos da classe Produto. Nomeie as variáveis tempNumber, tempName, tempQty e tempPrice.
+b. Crie um prompt no início do seu método principal que instruirá o utilizador a introduzir o valor necessário para o número de produtos que pretende armazenar:
 
-c) Peça ao utilizador para introduzir valores para cada um dos atributos da classe "Produto". Peça o nome, a quantidade, o preço e o número do item, guarde os valores nas variáveis locais temporárias que acabou de criar.
+I) Introduza o número de produtos que gostaria de adicionar
 
-d) Utilize os valores que foram introduzidos pelo utilizador para criar o objeto p1. Isto significa que vai utilizar o construtor que recebe 4 parâmetros em vez do construtor predefinido.
+II) Introduza 0 (zero) se não pretender adicionar produtos
 
-2 - Peça ao utilizador que forneça valores para p2.
+c) Utilize um ciclo "do while" para que o programa não continue até que seja introduzido um valor positivo válido. Se for introduzido um valor inferior a zero, deve ser apresentada uma mensagem de erro com a indicação "Valor incorreto introduzido", antes de ser pedido ao utilizador que volte a introduzir um novo valor. Não se deve sair do ciclo até que seja introduzido um valor igual ou superior a zero.
 
-a) Utilize as mesmas variáveis locais que anteriormente para obter a entrada do utilizador para criar o objeto p2. Copie e cole o código após a linha que cria o objeto p1.
+2 - Adicionar algum tratamento de erros para lidar com erros de tempo de execução no seu código. Atualmente, o seu programa lida com números introduzidos fora do intervalo indicado, mas não consegue lidar com entradas de tipo de dados incorretas.
 
-b) Execute o programa e identifique onde ocorreu um erro.
+a) Adicione um bloco try que envolva todo o código dentro do loop do while.
 
-c) O programa não parece pedir um valor para nome. Isto deve-se ao fato de o último valor introduzido ter sido um valor numérico e ter deixado alguns caracteres especiais no buffer de entrada. Para limpar o buffer de entrada, adicione a seguinte instrução antes de pedir qualquer valor para p2:
-in.nextLine();
-Esta instrução recebe todos os valores armazenados na memória intermédia e elimina-os, deixando uma memória intermédia vazia.
+b) Adicione uma instrução catch acima do while que receberá um parâmetro Exception e. O programa deve utilizar uma instrução de saída da consola para apresentar o valor de e no ecrã.
 
-d) Execute o programa agora, ele deve estar livre de erros e mostrar todos os valores, incluindo os valores introduzidos pelo utilizador, na consola.
+c) Como agora atribui um valor para maxSize dentro de uma instrução try, existe a possibilidade de não ter sido atribuído um valor a maxSize quando chegar à cláusula while. Para garantir que isto não acontece, atribua um valor inicial de -1 a maxSize quando esta for declarada.
 
-e) Feche o objeto Scanner quando tiver terminado.
+DICA: Atribua sempre um valor que falhará no ciclo, para que o seu código seja forçado a atribuir um valor correto antes de o fazer continuar.
 
-3 - É desejável poder marcar os seus produtos como activos ou descontinuados. Se um produto for descontinuado, significa que o stock restante será o último e que não serão feitas mais encomendas.
+d) Execute e teste o seu código introduzindo um carácter em vez de um número.
 
-a) Adicione um campo de instância booleano à sua classe Produto chamado ativo, que tem um valor predefinido de verdadeiro.
+e) Acrescente uma linha de código na instrução catch que limpe o buffer de entrada para que o prompt seja exibido e o sistema aguarde a entrada do utilizador.
 
-b) Crie métodos getter/setter para este novo campo.
+f) Anote o tipo específico de Exceção produzido quando você insere um caractere e crie uma instrução catch apenas para essa exceção. Este erro deve apresentar uma mensagem de tipo de dados incorreto introduzido! na consola e deve também limpar a memória intermédia de entrada.
 
-c) Adicione o valor deste novo campo ao método toString() de modo a que o resultado corresponda ao seguinte:
+g) Execute e teste o seu código introduzindo uma variedade de valores de entrada diferentes.
 
-| Campo                 | Valor       |
-|-----------------------|-------------|
-| Número do produto     | 1           |
-| Nome                  | Melhores Hits |
-| Quantidade no estoque | 25          |
-| Preço                 | 9.99        |
+3 - Modificar a classe ProductTester para tratar vários produtos utilizando uma matriz unidimensional se for introduzido um valor superior a zero.
 
-4 - Quando se executa o código, obtém-se um valor impresso para ativo como verdadeiro ou falso. Isto não é fácil de utilizar e seria melhor se a saída indicasse Ativo (verdadeiro) ou Descontinuado (falso). Para o efeito, adicione um operador ternário no método toString().
+a) Crie uma instrução if que exibirá a mensagem "Não são necessários produtos!" no console se o valor de maxSize for zero.
 
-5 - Chame o setter da classe driver e defina o valor ativo como false para o objeto p6 antes de apresentar os valores no ecrã. Execute e teste o seu código.
-   
-6 - Crie um método na classe Produto que devolva o valor do inventário para cada item. Utilize o preço do produto multiplicado pela quantidade de stock para calcular o valor do inventário. Não utilize nenhuma variável local neste método, apenas devolva o valor numa única linha de código.
+b) Adicione uma instrução Else para lidar com qualquer valor diferente de zero. Crie um único array de uma dimensão chamado produtos com base na classe Produto que terá o número de elementos especificado pelo usuário na variável maxSize.
 
-7 - Atualize o método toString() da classe Product para incluir uma chamada ao método getInventoryValue() que acabou de criar, de modo a que o resultado seja o seguinte:
+4 - Preencher a matriz, obtendo os valores do utilizador para cada campo num objeto de produto.
 
-| Campo                 | Valor       |
-|-----------------------|-------------|
-| Número do produto     | 1           |
-| Nome                  | Melhores Hits |
-| Quantidade no estoque | 25          |
-| Preço                 | 9.99        |
-| Valor do estoque      | 249.75      |
-| Status do produto     | true        |
+a) Dentro da instrução else sob o local onde criou o array, escreva um loop for que irá iterar através do array de zero a 1 menos que maxSize.
 
-8 - Salve o projeto.
+b) Como a última entrada recebida do utilizador foi numérica, terá de adicionar uma instrução que limpe o buffer de entrada como a primeira linha do seu loop for.
 
+c) Copie o código que usou para obter a entrada do utilizador para todos os campos de um produto para o loop for. Isso inclui o nome, a quantidade, o preço e o número do item.
 
+d) Adicione um novo objeto produto à matriz utilizando o valor do índice para a posição e o construtor que recebe 4 parâmetros.
 
+5 - Utilize um loop for each para apresentar a informação de cada produto individual na matriz products.
 
+6 - Remova qualquer código desnecessário que não seja utilizado neste exercício.
+
+7 - Salve o projeto
 
 
