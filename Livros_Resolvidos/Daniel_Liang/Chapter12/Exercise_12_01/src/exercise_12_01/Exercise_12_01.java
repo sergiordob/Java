@@ -28,7 +28,7 @@ public class Exercise_12_01 {
             customNumberFormatException.setNumberOne(numberOne);
         } catch (NumberFormatException e) {
             System.out.printf("%s%n", e.getMessage());
-            //return; // Encerra o programa em caso de exceção
+            return; //encerra o programa em caso de exceção
         }
 
         // number two
@@ -38,7 +38,7 @@ public class Exercise_12_01 {
             customNumberFormatException.setNumberTwo(numberTwo);
         } catch (NumberFormatException e) {
             System.out.printf("%s%n", e.getMessage());
-            //return; // Encerra o programa em caso de exceção
+            return; //encerra o programa em caso de exceção
         }
         
         /*Em Java, quando você lê entrada do usuário usando Scanner.nextInt() ou outras funções nextX() 
@@ -78,12 +78,14 @@ public class Exercise_12_01 {
             customNumberFormatException.setOperator(operator);
         } catch (IllegalArgumentException e) {
             System.out.printf("%s%n", e.getMessage());
+            return; //encerra o programa em caso de exceção
         }
         
         try{
-            System.out.printf("Result = %d", customNumberFormatException.getResult());
+            System.out.printf("Result = %d%n%n", customNumberFormatException.getResult());
         } catch (ArithmeticException e) {
             System.out.printf("%s%n", e.getMessage());
+            return; //encerra o programa em caso de exceção
         }
     }   
 }

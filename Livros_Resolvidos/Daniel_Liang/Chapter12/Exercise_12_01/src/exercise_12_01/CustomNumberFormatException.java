@@ -63,25 +63,27 @@ public class CustomNumberFormatException {
         return this.operator;
     }
     
-    public int getResult(){
+    public int getResult() throws ArithmeticException{
         //int answer;
         switch(this.operator){
-            case '+': this.answer = this.numberOne + this.numberTwo; break;
-            case '-': this.answer = this.numberOne - this.numberTwo; break;
-            case '*': this.answer = this.numberOne * this.numberTwo; break;
-            case '/':
-                    if (this.numberTwo != 0) {
-                        answer = this.numberOne / this.numberTwo;
-                    } else {
-                        throw new ArithmeticException("Division by zero is not valid."); // Lidar com divisão por zero
-                    }
+        case '+': this.answer = this.numberOne + this.numberTwo; break;
+        case '-': this.answer = this.numberOne - this.numberTwo; break;
+        case '*': this.answer = this.numberOne * this.numberTwo; break;
+        case '/':
+            if (this.numberTwo != 0) {
+                answer = this.numberOne / this.numberTwo;
+            } else {
+                throw new ArithmeticException("Division by zero is not valid.");
+            }
 
-                    if (this.numberTwo > this.numberOne) throw new ArithmeticException("Decimal result.");
-                        answer = this.numberOne / this.numberTwo;
-                break; // Adicione break para sair do switch
-            default:  break;
+            if (this.numberTwo > this.numberOne) {
+                throw new ArithmeticException("Decimal result.");
+            }
+
+            break;
+        default:  break;
     }
-        return this.answer;
+    return this.answer;
     }
 }
 
