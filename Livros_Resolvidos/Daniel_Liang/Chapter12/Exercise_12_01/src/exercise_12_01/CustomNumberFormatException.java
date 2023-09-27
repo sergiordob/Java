@@ -12,6 +12,7 @@ public class CustomNumberFormatException {
     private int numberOne;
     private int numberTwo;
     private char operator;
+    private int answer;
    
     public CustomNumberFormatException() {
         this.numberOne = 0;
@@ -19,34 +20,33 @@ public class CustomNumberFormatException {
         this.operator = 'n';
     }
 
-    public CustomNumberFormatException(String numberOne, String numberTwo, char operator) throws NumberFormatException {
+    public CustomNumberFormatException(String numberOne, String numberTwo, char operator){
         setNumberOne(numberOne);
         setNumberTwo(numberTwo);
         setOperator(operator);
     }
 
     public void setNumberOne(String numberOne) throws NumberFormatException {
-        try {
-            // Tenta converter a string em um número inteiro
-            this.numberOne = Integer.parseInt(numberOne);
-        } catch (NumberFormatException e) {
+            try {
+            this.numberOne = Integer.parseInt(numberOne); // Tenta converter a string em um número inteiro
+        } 
+            catch (NumberFormatException e) {
             throw new NumberFormatException("Not an integer number.");
         }
     }
 
     public void setNumberTwo(String numberTwo) throws NumberFormatException {
-        try {
-            // Tenta converter a string em um número inteiro
-            this.numberTwo = Integer.parseInt(numberTwo);
-        } catch (NumberFormatException e) {
+            try {
+            this.numberTwo = Integer.parseInt(numberTwo); // Tenta converter a string em um número inteiro
+        }   catch (NumberFormatException e) {
             throw new NumberFormatException("Not an integer number.");
         }
     }
 
     public void setOperator(char operator) throws IllegalArgumentException {
-        if (operator != '+' && operator != '-' && operator != '*' && operator != '/') {
+            if (operator != '+' && operator != '-' && operator != '*' && operator != '/') {
             throw new IllegalArgumentException("Not a valid operator.");
-        } else {
+        }   else {
             this.operator = operator;
         }
     }
@@ -61,6 +61,27 @@ public class CustomNumberFormatException {
 
     public char getOperator() {
         return this.operator;
+    }
+    
+    public int getResult(){
+        //int answer;
+        switch(this.operator){
+            case '+': this.answer = this.numberOne + this.numberTwo; break;
+            case '-': this.answer = this.numberOne - this.numberTwo; break;
+            case '*': this.answer = this.numberOne * this.numberTwo; break;
+            case '/':
+                    if (this.numberTwo != 0) {
+                        answer = this.numberOne / this.numberTwo;
+                    } else {
+                        throw new ArithmeticException("Division by zero is not valid."); // Lidar com divisão por zero
+                    }
+
+                    if (this.numberTwo > this.numberOne) throw new ArithmeticException("Decimal result.");
+                        answer = this.numberOne / this.numberTwo;
+                break; // Adicione break para sair do switch
+            default:  break;
+    }
+        return this.answer;
     }
 }
 

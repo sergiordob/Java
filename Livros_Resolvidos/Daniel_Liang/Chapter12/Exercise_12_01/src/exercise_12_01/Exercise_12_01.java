@@ -14,13 +14,12 @@ public class Exercise_12_01 {
 
     public static void main (String[] args){
       Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
-        CustomNumberFormatException customNumberFormatException = new CustomNumberFormatException();
+      Scanner scanner = new Scanner(System.in);
+      CustomNumberFormatException customNumberFormatException = new CustomNumberFormatException();
 
-
-        String numberOne;
-        String numberTwo;
-        char operator;
+      String numberOne;
+      String numberTwo;
+      char operator;
 
         // number one
         try {
@@ -70,7 +69,6 @@ public class Exercise_12_01 {
         de entrada está limpo antes de ler o operador com scanner.nextLine().charAt(0), 
         evitando comportamentos inesperados e erros relacionados ao caractere de nova linha.*/
 
-        // Consume the newline character left in the input buffer
         scanner.nextLine();
 
         // operator
@@ -79,6 +77,12 @@ public class Exercise_12_01 {
             operator = scanner.next().charAt(0); // Use next() em vez de nextLine()
             customNumberFormatException.setOperator(operator);
         } catch (IllegalArgumentException e) {
+            System.out.printf("%s%n", e.getMessage());
+        }
+        
+        try{
+            System.out.printf("Result = %d", customNumberFormatException.getResult());
+        } catch (ArithmeticException e) {
             System.out.printf("%s%n", e.getMessage());
         }
     }   
