@@ -26,7 +26,8 @@ public class CustomNumberFormatException {
         setOperator(operator);
     }
 
-    public void setNumberOne(String numberOne) throws NumberFormatException {
+    public void setNumberOne(String numberOne) //throws NumberFormatException 
+    {
             try {
             this.numberOne = Integer.parseInt(numberOne); // Tenta converter a string em um número inteiro
         } 
