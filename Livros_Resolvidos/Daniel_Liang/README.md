@@ -2,7 +2,7 @@
   <img src="./Capa.png" alt="Texto Alternativo">
 </p>
 
-Solução dos exercícios - realizados no Intellij -  do livro ***Introduction to Java Programming and Data Structures, Comprehensive Version 12th Edition - 2019.***, adotado em grande parte das Universidades Americanas no ensino sobre Java. A obra cobre as versões 9, 10 e 11 do Java.
+Solução dos exercícios - realizados no Intellij e NetBeans -  do livro ***Introduction to Java Programming and Data Structures, Comprehensive Version 12th Edition - 2019.***, adotado em grande parte das Universidades Americanas no ensino sobre Java. A obra cobre as versões 9, 10 e 11 do Java.
 
 Site da editora: https://www.pearson.com/en-us/subject-catalog/p/introduction-to-java-programming-and-data-structures/P200000003470
 
