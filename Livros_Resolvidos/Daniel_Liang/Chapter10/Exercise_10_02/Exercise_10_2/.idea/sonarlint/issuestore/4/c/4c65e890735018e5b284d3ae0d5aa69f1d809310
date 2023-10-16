@@ -1,10 +1,0 @@
-
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸ÜÁ¥8–ôÌ¦³1
-ò
-java:S1598"ÏThis file "Exercise_10_02.java" should be located in "br\com\classes" directory, not in "C:\Users\Sergio\Desktop\Sergio\GitHub\Java\Livros_Resolvidos\Daniel_Liang\Chapter10\Exercise_10_02\Exercise_10_2\src".(†Ú¹–ÿÿÿÿÿ8—ôÌ¦³1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¤º•ûþÿÿÿÿ8¤ôÌ¦³1
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ¼¤•8€Úí¦³1
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8€Úí¦³1
-O
-java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ8€Úí¦³1
