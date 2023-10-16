@@ -1,0 +1,15 @@
+
+K
+java:S1121=".Extract the assignment out of this expression.(é€Íø8 ³·¦³1
+K
+java:S1121?".Extract the assignment out of this expression.(³ÄƒŒ8¡³·¦³1
+J
+java:S1121A".Extract the assignment out of this expression.(éóÛ8¡³·¦³1
+r
+java:S1450"URemove the "status" field and declare it as a local variable in the relevant methods.(ÎÁ‚á8¦³·¦³1
+S
+java:S2696="6Make the enclosing method "static" or remove this set.(é€Íø8åÆê¦³1
+S
+java:S2696?"6Make the enclosing method "static" or remove this set.(³ÄƒŒ8åÆê¦³1
+R
+java:S2696A"6Make the enclosing method "static" or remove this set.(éóÛ8åÆê¦³1
