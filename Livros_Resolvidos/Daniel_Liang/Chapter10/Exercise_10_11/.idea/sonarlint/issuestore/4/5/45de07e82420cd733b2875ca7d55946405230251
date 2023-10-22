@@ -1,0 +1,11 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğòÃ½úÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğòÃ½úÿÿÿÿ
+m	java:S116"SRename this field "x_center" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÚº şÿÿÿÿ
+m	java:S116"SRename this field "y_center" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ‚Éˆúÿÿÿÿ
+\
+java:S1126+"AReplace this if-then-else statement by a single return statement.(…İ¶”üÿÿÿÿ
+\
+java:S1854C"ARemove this useless assignment to local variable "radiusModulus".(»ÿ¹øÿÿÿÿ
+M
+java:S1481C"2Remove this unused "radiusModulus" local variable.(»ÿ¹øÿÿÿÿ
