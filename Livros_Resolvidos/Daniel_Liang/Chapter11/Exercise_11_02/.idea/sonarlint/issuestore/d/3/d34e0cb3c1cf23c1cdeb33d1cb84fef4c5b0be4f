@@ -1,0 +1,17 @@
+
+m
+java:S1192"KDefine a constant instead of duplicating this literal "11/05/1988" 3 times.(ñäÉÑıÿÿÿÿ8€ï›Èµ1
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨áŞÜ8·‘™Èµ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(èëËıÿÿÿÿ8»‘™Èµ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ôêï‚ÿÿÿÿÿ8»‘™Èµ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‘ñÙùıÿÿÿÿ8»‘™Èµ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¦‡Şø8»‘™Èµ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(îôÈìøÿÿÿÿ8¼‘™Èµ1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8±ñÔÈµ1
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8±ñÔÈµ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8²ñÔÈµ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8²ñÔÈµ1

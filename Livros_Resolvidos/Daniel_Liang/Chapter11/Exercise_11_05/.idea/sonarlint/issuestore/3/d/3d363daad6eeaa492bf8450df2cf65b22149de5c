@@ -1,0 +1,9 @@
+
+„
+java:S4165"gRemove this useless assignment; "arrayList" already holds the assigned value along all execution paths.(¥΄ΑΪ8—±†¶1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(µ„ΰ¦ÿÿÿÿÿ8›±†¶1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ψ–ªωÿÿÿÿ8±†¶1
+L
+java:S1656"/Remove or correct this useless self-assignment.(¥΄ΑΪ8±†¶1
+P
+java:S1068".Remove this unused "courseName" private field.(ήςΫΰϋÿÿÿÿ8±†¶1
